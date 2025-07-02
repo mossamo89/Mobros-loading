@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0f0f0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.overlay a {
+    color: #fff;
+    background-color: #c0392b;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.overlay a:hover {
+    background-color: #e74c3c;
+}
